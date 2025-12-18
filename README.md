@@ -38,7 +38,7 @@ This project focuses on implementing **industry‑standard authentication practi
 | POST   | `/api/user/register` | Register a new user                 |
 | POST   | `/api/user/login`    | Login user                          |
 | POST   | `/api/user/logout`   | Logout user                         |
-| GET    | `/api/user/isAuth`   | Check authentication / user profile |
+| GET    | `/api/user/isAuth`   | User profile |
 
 ---
 
@@ -119,17 +119,6 @@ This project focuses on implementing **industry‑standard authentication practi
 
 ---
 
-##  Environment Variables
-
-Create a `.env` file in the root directory and add:
-
-```env
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-```
-
----
 
 ##  Installation & Run
 
@@ -141,7 +130,7 @@ npm run dev
 Server will start at:
 
 ```
-http://localhost:5000
+http://localhost:1000
 ```
 
 ---
@@ -153,7 +142,6 @@ This project is built to:
 * Demonstrate backend authentication skills
 * Practice JWT & cookie‑based security
 * Showcase backend‑only project on GitHub
-* Prepare for backend / full‑stack interviews
 
 ---
 

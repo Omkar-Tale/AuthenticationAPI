@@ -97,7 +97,7 @@ This project focuses on implementing **industry‑standard authentication practi
 
 ---
 
-## API Screenshots (Postman)
+## API Screenshots (Thunder)
 
 >  **Note:** All screenshots are stored inside the `screenshots/` folder.
 
